@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  list-style: none;
+  height: 70px;
+  background-color: black;
+  align-items: center;
+  transition: linear 1s;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  #logo {
+    margin-left: 2em;
+    font-weight: 800;
+    font-size: large;
+  }
+  #login:hover,#register:hover {
+    border-bottom: solid 3px ghostwhite;
+
+    transition: linear 0.5s;
+  }
+
+
+  #login {
+    margin-left: 78em;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-bottom: solid 3px black;
+    transition: linear 0.5s;
+  }
+  #register {
+    margin-left: 3em;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-bottom: solid 3px black;
+    transition: linear 0.5s;
+  }
+  
+}
+nav:hover{
+  box-shadow: 0 0 15px  ghostwhite;
+  transition: linear 1s;
+}

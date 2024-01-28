@@ -1,0 +1,60 @@
+.body {
+  display: flex;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.container {
+  color: black;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 60px 50px;
+  background-color: ghostwhite;
+
+
+  #title {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  #pass,
+  #user {
+    margin-top: 3px;
+    border: solid 0.1px rgb(182, 181, 181) ;
+    height: 30px;
+  }
+  #pass:focus,
+  #user:focus {
+    outline: none;
+  }
+  #submit {
+    border: none;
+    background-color: green;
+    color: black;
+    font-weight: 700;
+    max-width: 100px;
+    margin-top: 3rem;
+  }
+  #submit:hover {
+    text-shadow: green;
+  }
+  .user {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 2rem;
+  }
+  .pass {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 1rem;
+
+  }
+  #wlcm{
+    font-weight: 500;
+    margin-top: 3rem;
+    font-size: 18px;
+    font-family: "manrope",sans-serif;
+  }
+}
